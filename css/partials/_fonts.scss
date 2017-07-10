@@ -1,0 +1,42 @@
+@font-face {
+  font-family: AvantGradeBook;
+  src: url(../fonts/AvantGradeBook.ttf);
+}
+
+@font-face {
+  font-family: AvantGardeBold;
+  src: url(../fonts/AvantGardeBold.otf);
+}
+
+@font-face {
+  font-family: CanaroBook;
+  src: url(../fonts/CanaroBold.otf);
+}
+
+@font-face {
+  font-family: CanaroExtraLight;
+  src: url(../fonts/CanaroExtraLight.otf);
+}
+
+@font-face {
+  font-family: CanaroMedium;
+  src: url(../fonts/CanaroMedium.otf);
+}
+
+@font-face {
+  font-family: CanaroSemiBold;
+  src: url(../fonts/CanaroSemiBold.otf);
+}
+
+@font-face {
+  font-family: Generica;
+  src: url(../fonts/Generica.otf);
+}
+@font-face {
+  font-family: ProximaNovaRegular;
+  src: url(../fonts/ProximaNovaRegular.otf);
+}
+
+
+$main-font: Generica;
+$secondary-font: AvantGardeBold;

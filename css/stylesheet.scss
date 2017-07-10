@@ -1,0 +1,220 @@
+@import "partials/fonts";
+
+//Framework Start
+
+body {
+  font-family: $main-font;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover, a:focus, a:visited {
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+}
+
+.Generica {
+  font-family: Generica;
+}
+
+.ProximaNovaRegular {
+  font-family: ProximaNovaRegular;
+}
+
+.AvantGradeBook {
+  font-family: AvantGradeBook;
+}
+
+.AvantGardeBold {
+  font-family: AvantGardeBold;
+}
+
+.CanaroBook {
+  font-family: CanaroBook;
+}
+
+.CanaroExtraLight {
+  font-family: CanaroExtraLight;
+}
+
+.CanaroMedium {
+  font-family: CanaroMedium;
+}
+
+.CanaroSemiBold {
+  font-family: CanaroSemiBold;
+}
+
+.headline {
+  font-size: 4vh;
+}
+
+.subheading {
+  font-size: 2vw;
+}
+
+.bg-white {
+  background-color: #d7d7d7;
+  color: #141414;
+  width: 25vh;
+}
+
+.side-logo {
+  position: fixed;
+  top: 60vh;
+  right: 0;
+}
+
+.title {
+  text-transform: uppercase;
+  line-height: 2.5;
+  background-color: #1f2020;
+  color: #ffffff;
+  margin: 0;
+  padding-left: 10%;
+}
+
+.float-text {
+  padding-top: 8%;
+  padding-left: 5%;
+  text-transform: uppercase;
+  font-family: AvantGardeBold;
+  font-size: 24px;
+}
+
+.yellow-separator {
+  background-color: #d3e325;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+.clean-space {
+  padding-right: 0;
+  @media screen and (max-width: 680px) {
+    padding: 0;
+  }
+}
+
+.green-background {
+  background-image: url(../img/title-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.nav-tabs {
+  margin-left: -10px;
+  margin-top: 20px;
+  border: none;
+}
+
+.tab a {
+  font-size: 15px;
+  margin: 10px;
+  background-color: #1f2020;
+  color: #ffffff;
+  padding: 15px 3.5vw 10px 10px;
+  font-family: AvantGardeBold;
+}
+
+.tab a.active  {
+  background-color: #d3e325 !important;
+  color: #302f2f !important;
+}
+
+//Framework End
+
+//Content Start
+
+header {
+  background-color: #101419;
+  .logo {
+    padding: 50px 0;
+    text-align: center;
+    img {
+      width: 450px;
+    }
+  }
+}
+
+.hero {
+  background-image: url(../img/hero.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: #ffffff;
+  .transparent-box {
+    margin: 50px 50px;
+    padding: 50px 50px;
+    background-color: rgba(27, 26, 24, 0.8);
+    h2 {
+      font-size: 3vw;
+    }
+  }
+  .arrow {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    img {
+      width: 100px;
+    }
+  }
+  .transparent-footer {
+    background-color: rgba(27, 26, 24, 0.9);
+    padding: 30px 0;
+    .social-icons {
+      letter-spacing: 5px;
+      font-size: 30px;
+      a {
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+nav {
+  .nav-link {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 25px;
+    font-size: 18px;
+  }
+}
+
+.content {
+  margin-top: 50px;
+  .intro {
+    background-image: url(../img/net-bg-white.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    .bg-title {
+      padding-top: 50px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.chess-background {
+  background-image: url(../img/chess.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 20vh;
+
+}
+
+.people {
+  margin-top: 50px;
+
+  .tab-pane p {
+    margin-top: 30px;
+    font-family: ProximaNovaRegular;
+    max-width: 850px;
+  }
+
+}
+
+//Content End
+
